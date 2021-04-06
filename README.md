@@ -1,7 +1,13 @@
 # zcu-kiv-psi-1
 
 This is the first KIV/PSI project. It's a basic [SSDP](https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol)
-client used for discovering devices on local network.
+client for discovering devices and services on local network.
+
+## Implementation
+
+The client is implemented in C and uses only the standard library and POSIX sockets.
+It should work on any POSIX-compatible platform.
+Windows operating system is not supported.
 
 ## Building
 
